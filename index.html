@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <title>Document</title>
+</head>
+<body>
+  <div class="max-w-md mx-auto mt-20 bg-white rounded-lg shadow-lg" id="calculadora">
+    <section class="flex ustify-center bg-gray-200">
+      <input type="text" id="operacion" class="border-2 w-full p-4 m-4 text-right font-semibold text-xl bg-white" disabled>
+    </section>
+    <div class="grid grid-cols-4 gap-2 p-4 font-semibold text-xl bg-gray-200">
+      <button class="bg-gray-400 p-4 hover:bg-gray-500">7</button>
+      <button class="bg-gray-400 p-4 hover:bg-gray-500">8</button>
+      <button class="bg-gray-400 p-4 hover:bg-gray-500">9</button>
+      <button class="bg-yellow-500 p-4 hover:bg-yellow-600">/</button>
+
+      <button class="bg-gray-400 p-4 hover:bg-gray-500">4</button>
+      <button class="bg-gray-400 p-4 hover:bg-gray-500">5</button>
+      <button class="bg-gray-400 p-4 hover:bg-gray-500">6</button>
+      <button class="bg-yellow-500 p-4 hover:bg-yellow-600">*</button>
+
+      <button class="bg-gray-400 p-4 hover:bg-gray-500">1</button>
+      <button class="bg-gray-400 p-4 hover:bg-gray-500">2</button>
+      <button class="bg-gray-400 p-4 hover:bg-gray-500">3</button>
+      <button class="bg-yellow-500 p-4 hover:bg-yellow-600">-</button>
+
+      <button class="bg-gray-400 p-4 hover:bg-gray-500 col-span-2">0</button>
+      <button class="bg-green-500 p-4 hover:bg-green-600">=</button>
+      <button class="bg-yellow-500 p-4 hover:bg-yellow-600">+</button>
+
+      <button class="bg-rose-600 text-white p-4 hover:bg-rose-900 col-span-2">C</button>
+      <button class="bg-orange-500 text-white p-4 hover:bg-orange-800 col-span-2"> { x]</button>
+    </div>
+  </div>
+</body>
+</html>    
+<script src="calculadora.js"></script>
